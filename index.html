@@ -5,65 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>MooreLabs.com</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/moorelabs.css">
+    <link rel="icon" type="image/png" href="/imgs/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/imgs/icons/favicon-16x16.png" sizes="16x16" />
+
 </head>
 <body>
-<div class="container-fluid">
-    <!-- Header/Title bar -->
-    <h1>MooreLabs</h1>
-    <h6>Custom Software and Hardware design and development</h6>
-    <p>MooreLabs provides hardware and software design and consultation.</p>
+<!-- GA -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-77059551-2', 'auto');
+     ga('send', 'pageview');
+</script>
+<!-- /GA -->
+
+<div class="container-fluid brand_color p-3">
+    <div class="row justify-content-center text-center JosefinSans">
+            <div class="col p-2"><img src="imgs/Deco_Logo_Blue.png" class="img-fluid" alt="Moore Labs"/></div>
+    </div>
+    <div class="row justify-content-center text-center JosefinSans">
+        <div class="col p-2"><p class="lead">Custom Software and Hardware design, development, and consultation</p></div>
+    </div>
+
 </div>
 
-<div class="container-fluid mt-4">
-    <div class="row">
-        <div class="col"><h4>Software Engineering</h4></div>
+<div class="container">
+    <div class="row mt-4 mb-4">
+        <div class="col JosefinSans"><h4>Software Engineering</h4></div>
     </div>
-    <div class="row">
+    <div class="row ml-3">
         <div class="col"><p>With over 20 years of software engineering and development experience we can provide custom development and consultation services.</p>
             <p>Projects have ranged from micro-service based web applications to utilizing OpenCV and TensorFlow for image detection and classification. Embedded projects
             have included explorations into using CoaP and OAuth for security in Internet of Things devices as well as small temperature sensors reporting back to a central server based on MongoDB.</p>
         </div>
     </div>
-    <div class="row mt-2">
-        <div class="col-2 offset-md-1"> Node.js</div>
-        <div class="col-2">Python</div>
-        <div class="col-2">MongoDB</div>
-    </div>
-    <div class="row mt-1">
-        <div class="col-2 offset-md-1">OpenCV</div>
-        <div class="col-2">Tensorflow</div>
-        <div class="col-2">Java</div>
-    </div>
-    <div class="row mt-1">
-        <div class="col-2 offset-md-1">C#</div>
-        <div class="col-2">Embedded C</div>
-        <div class="col-2">Unity3D</div>
-    </div>
-</div>
-<div class="container-fluid mt-4">
     <div class="row">
-        <div class="col"><h4>Hardware Engineering</h4></div>
+        <div class="col col-sm-auto offset-sm-1">
+        <table class="table table-sm table-bordered">
+            <tbody>
+            <tr>
+                <td>Node.js</td>
+                <td>Python</td>
+                <td>MongoDB</td>
+            </tr>
+            <tr>
+                <td>TensorFlow</td>
+                <td>OpenCV</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>C#</td>
+                <td>Embedded C</td>
+                <td>Unity3D</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
-    <div class="row">
-        <div class="col">Background in analog and digital hardware development, schematic layout, and PCB design</div>
     </div>
-    <div class="row mt-2">
-        <div class="col-2 offset-md-1">Internet of Things</div>
-        <div class="col-2">Contiki OS</div>
-        <div class="col-2">TI Micro-Controllers</div>
-    </div>
-    <div class="row mt-1">
-        <div class="col-2 offset-md-1">Cypress PSoC</div>
-        <div class="col-2">Digital and Analog interfaces</div>
-        <div class="col-2">Autodesk EAGLE Design</div>
-    </div>
-</div>
 
-<div class="container-fluid mt-4">
+    <div class="row mt-4">
+        <div class="col JosefinSans"><h4>Hardware Engineering</h4></div>
+    </div>
+    <div class="row  ml-3">
+        <div class="col"><p>Background in analog and digital hardware development, schematic layout, and PCB design</p></div>
+    </div>
+
     <div class="row">
-        <div class="col"><h4>About MooreLabs</h4></div>
+        <div class="col col-md-auto offset-md-1">
+            <table class="table table-sm table-bordered">
+                <tbody>
+                <tr>
+                    <td>Internet of Things</td>
+                    <td>Contiki OS</td>
+                    <td>TI Micro-Controllers</td>
+                </tr>
+                <tr>
+                    <td>Cypress PSoC</td>
+                    <td>Digital and Analog interfaces</td>
+                    <td>Autodesk EAGLE Design</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-5 col-xs-5">
+            <div class="card-inverse" >
+                <img class="card-img img-fluid" src="projects/pixel_LED/imgs/Dark_Blue.png" alt="I2C controlled Pixel">
+                <div class="card-img-overlay">
+                    <h4 class="card-title JosefinSans">I2C RGB LED</h4>
+                    <p class="card-text">Custom I2C controlled RGB LED based on Open Source BlinkM</p>
+                    <a href="projects/pixel_LED/index.html" class="btn btn-brand btn-sm">More Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col JosefinSans"><h4>About MooreLabs</h4></div>
+    </div>
+    <div class="row ml-3">
         <div class="col">
             <p>MooreLabs was originally started when Russell Moore began consulting on hardware and software in 1994. Russ's son, Stephen, has taken up the
             MooreLabs name.</p>
@@ -80,22 +126,19 @@
             helping radiologist bring Breast Cancer Risk assessment to their patients utilizing machine learning.</p>
         </div>
     </div>
-    <div class="row mt-1">
+    <div class="row mt-1  ml-3">
         <div class="col">Steve's hobbies and personal interests range from having a small CNC milling setup in his workshop, building personal IoT devices for his home,
         and developing games using Unity3D. </div>
     </div>
-    <div class="row mt-1">
+    <div class="row mt-1  ml-3">
         <div class="col"><a href="http://www.linkedin.com/in/stephen-moore-32b5561"><img src="imgs/icons/In-2C-14px.png"> LinkedIn Profile</a> </div>
     </div>
 
-</div>
-
-<div class="container-fluid mt-4">
-    <div class="row">
-        <div class="col"><h4>Contact MooreLabs</h4></div>
+    <div class="row mt-4">
+        <div class="col JosefinSans"><h4>Contact MooreLabs</h4></div>
     </div>
-    <div class="row">
-        <div class="col">How to contact me... probably a @moorelabs email address.</div>
+    <div class="row ml-3">
+        <div class="col">Feel free to drop Steve an email at <br><address><a href="mailto:steve@moorelabs.com">steve@moorelabs.com</a></address></div>
     </div>
 </div>
 <!-- Bootstrap Stuff -->

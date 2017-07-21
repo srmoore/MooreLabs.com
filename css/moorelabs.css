@@ -1,0 +1,18 @@
+.JosefinSans {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.brand_color {
+    background-color: #007dff;
+    color: white;
+}
+
+.btn-brand {
+    color: #fff;
+    background-color: #007dff;
+    border-color: #007dff;
+}
+
+.badge-brand {
+    background-color: #007dff;
+}
